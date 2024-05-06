@@ -1,0 +1,79 @@
+.form-group > span{
+    color: #B3A0A2;
+    font-size: 1rem;
+}
+.logo-text {
+  color:  #ffffff;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.logo-login {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.img-logo {
+  width: 70%;
+}
+.centered-div {
+  width: 40%;
+}
+.card {
+  padding: 25px;
+  border-radius: 10px;
+  width: 90%;
+}
+.centered-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.fullH {
+  min-height: 100vh;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+.main-text {
+  color:  #B3A0A2;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.secondary-text {
+  color: #999999;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  color:  #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-color: #B3A0A2;
+  text-transform: uppercase;
+  background-color: #B3A0A2;
+  transition: 0.3s;
+
+}
+
+.btn-primary:hover {
+    background-color:  #ffffff;
+    color: #B3A0A2;
+}
+
+@media (max-width: 768px) {
+    .centered-div {
+        width: 100%;
+    }
+}
+
+.bg{
+    background-image: url('img/bg.jpg')
+}

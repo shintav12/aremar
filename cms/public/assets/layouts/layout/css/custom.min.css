@@ -1,0 +1,54 @@
+/* Colores de fondo para el menu, header y footer del cms */
+.page-sidebar-menu.page-header-fixed, .page-header.navbar.navbar-fixed-top {
+    background-color: #666;;
+}
+.page-container, .page-footer {
+    background-color: #666; !important;
+}
+.nav-link.nav-toggle{
+    border-color: #666; !important;
+}
+/* Colores de letras para el menu, header y footer */
+.page-footer .copyright, .nav-item .title, .heading .uppercase,
+.dropdown.dropdown-user .dropdown-toggle .username{
+    color: #E5E5E5 !important;
+}
+/* Colores para los iconos en el menu */
+.nav-link.nav-toggle .fa{
+    color: #E5E5E5;
+}
+/* Colores para las fechas en los submenu */
+.nav-link.nav-toggle span::before{
+    color: #E5E5E5 !important;
+}
+/* Colores para la hamburguesa en el menu */
+.menu-toggler.sidebar-toggler span::before, .menu-toggler.sidebar-toggler span::after,
+.menu-toggler.sidebar-toggler span{
+    background: #E5E5E5 !important;
+}
+/* Colores para el resaltado en el menú */
+.nav-item a:hover, .nav-item.open .nav-link.nav-toggle, .nav-item.open .sub-menu .nav-item a:hover,
+.nav-item.active .sub-menu .nav-item.active a, .nav-item.active .nav-link.nav-toggle{
+     background: #b3a0a2 !important;
+}
+/* Colores para los botones en el contenido de cada módulo */
+.btn.btn-primary, .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.dataTables_paginate.paging_bootstrap_number .pagination .active a{
+    background-color: #b3a0a2 !important;
+    border-color: #b3a0a2 !important;
+}
+/* estilos para el logo y hamburguesa: esquina superior izquierda */
+.page-logo {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.logo-default{
+    margin: 25px 0 0 0 !important;
+}
+.menu-toggler.sidebar-toggler{
+    margin: 0 0 0 15px !important;
+}
+.page-sidebar-closed .menu-toggler.sidebar-toggler{
+    margin: 0px !important;
+}
